@@ -136,7 +136,7 @@
     <derby.version>10.12.1.1</derby.version>
     <parquet.version>1.10.1</parquet.version>
     <orc.version>1.5.9</orc.version>
-    <orc.classifier></orc.classifier>
+    <orc.classifier/>
     <hive.parquet.group>com.twitter</hive.parquet.group>
     <hive.parquet.version>1.6.0</hive.parquet.version>
     <jetty.version>9.4.18.v20190429</jetty.version>
@@ -169,7 +169,7 @@
     <fasterxml.jackson.version>2.10.0</fasterxml.jackson.version>
     <snappy.version>1.1.7.3</snappy.version>
     <netlib.java.version>1.1.2</netlib.java.version>
-    <commons-codec.version>1.10</commons-codec.version>
+    <commons-codec.version>20041127.091804</commons-codec.version>
     <commons-io.version>2.4</commons-io.version>
     <!-- org.apache.commons/commons-lang/-->
     <commons-lang2.version>2.6</commons-lang2.version>
@@ -203,8 +203,8 @@
     <leveldbjni.group>org.fusesource.leveldbjni</leveldbjni.group>
 
     <test.java.home>${java.home}</test.java.home>
-    <test.exclude.tags></test.exclude.tags>
-    <test.include.tags></test.include.tags>
+    <test.exclude.tags/>
+    <test.include.tags/>
 
     <!-- Package to use when relocating shaded classes. -->
     <spark.shade.packageName>org.sparkproject</spark.shade.packageName>
@@ -2685,7 +2685,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -2698,7 +2698,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -2711,7 +2711,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -2897,7 +2897,7 @@
             </goals>
             <configuration>
               <target>
-                <mkdir dir="${project.build.directory}/tmp" />
+                <mkdir dir="${project.build.directory}/tmp"/>
               </target>
             </configuration>
           </execution>
@@ -3037,7 +3037,7 @@
       <id>hive-1.2</id>
       <properties>
         <hive.group>org.spark-project.hive</hive.group>
-        <hive.classifier></hive.classifier>
+        <hive.classifier/>
         <!-- Version used in Maven Hive dependency -->
         <hive.version>1.2.1.spark2</hive.version>
         <!-- Version used for internal directory structure -->
